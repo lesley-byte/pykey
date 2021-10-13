@@ -6,7 +6,7 @@ import neopixel
 import keypad
 import usb_hid
 from adafruit_hid.keyboard import Keyboard
-from pykey.keycode import PK_Keycode as KC
+from pykey.keycode import PK_Keycode as KC  # you may need to change PK_Keycode to KB_Keycode
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 
 # Hardware definition: GPIO where RGB LED is connected.
