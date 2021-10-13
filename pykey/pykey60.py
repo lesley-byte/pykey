@@ -39,6 +39,8 @@ from pykey.speaker import KB_Speaker
 class PyKey60(KB_Hardware):
     """
     Class representing a single Keyboard.
+    Note the name of this class, you may be referring to it in your code.py file, 
+    this means that you need a folder on your board called pykey and this file inside of that folder.
     """
 
     def __init__(self, nkro: bool = False):
