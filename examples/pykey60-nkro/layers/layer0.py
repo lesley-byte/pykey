@@ -1,4 +1,4 @@
-from pykey.keycode import PK_Keycode as KC # REQUIRED if using KC.* values
+from pykey.keycode import KB_Keycode as KC # REQUIRED if using KC.* values
 
 layer = {                    # REQUIRED dict, must be named 'layer'
     'name' : 'Layer 0', # Application name
